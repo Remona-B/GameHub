@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const PopGames = () => {
   const [popularGames] = useState([
-    { name: 'Valorant', image: 'valorant.jpg' },
+    { name: 'Valorant', image: 'valo2.jpg' },
     { name: 'Fortnite',  image: 'valo.jpg' },
     { name: 'Counter Strike', image: 'cs.jpg' },
     { name: 'Call of Duty',  image: 'cod.jpg' },
