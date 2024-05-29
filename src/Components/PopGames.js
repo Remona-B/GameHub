@@ -20,7 +20,6 @@ const PopGames = () => {
     { name: 'Alan Wake',  image: 'alan.jpg' },
     { name: 'Last Of Us',  image: 'lastof.jpg' },
     { name: 'Resident Evil 4', image: 'last.jpg' },
-    { name: 'Super Mario Bros',  image: 'super.jpg' },
     { name: 'Legend of Zelda',  image: 'zelda.jpg' },
     { name: 'God of War', image: 'god.jpg' },
   ]);
