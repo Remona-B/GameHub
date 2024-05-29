@@ -1,0 +1,91 @@
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #31363F;
+    padding: 20px;
+  }
+  
+    .message-us-box {
+    background-color: #B4B4B8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+  }
+  
+   .message-us-header h2 {
+    color: #31363F; /* Yellow color */
+  }
+  
+  .about-us-header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-header p, .message-us-header p, .about-us-text p, .form-group label {
+    font-size: 1.2em;
+    color: white;
+  }
+  
+  .about-us-text {
+    font-size: 1.0em;
+    color: white;
+  }
+  
+  .about-us-text a {
+    color: #FFAF45;
+    text-decoration: none;
+  }
+  
+  .about-us-text a:hover {
+    text-decoration: underline;
+  }
+  
+  .message-us-content {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #515760;
+    color: white;
+    
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFAF45;
+    color: #393E46;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FFA500;
+  }
+  

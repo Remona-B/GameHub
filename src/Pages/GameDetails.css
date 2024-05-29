@@ -1,0 +1,77 @@
+/* GameDetails.css */
+
+.game-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #222831;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .game-details-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .game-details-header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #FFAF45;
+    font-family: "Audiowide", sans-serif;
+  }
+  
+  .game-details-content {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .game-details-info {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .game-details-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+
+  
+  .game-details-info strong {
+    color: #FFAF45;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .game-details-trailer {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .game-details-trailer iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .game-details-header h1 {
+      font-size: 28px;
+    }
+  
+    .game-details-info p {
+      font-size: 16px;
+    }
+  
+    .game-details-trailer iframe {
+      height: 300px;
+    }
+  }
+  

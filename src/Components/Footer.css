@@ -1,0 +1,35 @@
+
+.footer {
+    background-color: #222831;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    margin-right: 50px;
+  }
+  
+  .footer-section p {
+    font-size: 1.0rem; 
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.8rem; /* Adjust font size for footer text */
+  }
+
+  .footer-section h2{
+    font-family: "Audiowide", sans-serif;
+    color: #FFAF45;
+  }
+  
