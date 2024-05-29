@@ -16,8 +16,8 @@ const Footer = () => {
         <div className='footer-section'>
           <h2>Follow Us</h2>
           <p><a href="https://www.facebook.com/login.php" target="_blank">Facebook &nbsp; <CiFacebook size= "1.2rem"/></a></p>
-          <p>Twitter &nbsp; <CiTwitter size= "1.2rem"/></p>
-          <p>Instagram &nbsp; <CiInstagram size= "1.2rem" /></p>
+          <p><a href="https://x.com/?lang=en-in" target="_blank">Twitter &nbsp; <CiTwitter size= "1.2rem"/></a></p>
+          <p><a href="https://www.instagram.com/?hl=en" target="_blank"> Instagram &nbsp; <CiInstagram size= "1.2rem" /></a></p>
         </div>
       </div>
       <div className='footer-bottom'>
