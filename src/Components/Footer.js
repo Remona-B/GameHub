@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className='footer-section'>
           <h2>Follow Us</h2>
-          <p>Facebook &nbsp; <CiFacebook size= "1.2rem"/></p>
+          <p><a href="https://www.facebook.com/login.php" target="_blank">Facebook &nbsp; <CiFacebook size= "1.2rem"/></a></p>
           <p>Twitter &nbsp; <CiTwitter size= "1.2rem"/></p>
           <p>Instagram &nbsp; <CiInstagram size= "1.2rem" /></p>
         </div>
